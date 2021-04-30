@@ -1,4 +1,4 @@
-## Student Management System
+# Student Management System
 
 ## Introduction
 The Student Management System is an application which is useful for schools,colleges,universities to know about every student information. 
