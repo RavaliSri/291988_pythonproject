@@ -1,5 +1,5 @@
-
 import csv
+
 # Define global variables
 student_fields = ['roll', 'name', 'age', 'email', 'phone']
 student_database = 'students.csv'
@@ -96,7 +96,7 @@ def update_student():
             if len(row) > 0:
                 if roll == row[0]:
                     index_student = counter
-                    print("Student Found: at index ",index_student)
+                    print("Student Found: at index ", index_student)
                     student_data = []
                     for field in student_fields:
                         value = input("Enter " + field + ": ")
@@ -105,7 +105,6 @@ def update_student():
                 else:
                     updated_data.append(row)
                 counter += 1
-
 
     # Check if the record is found or not
     if index_student is not None:
@@ -147,6 +146,7 @@ def delete_student():
 
     input("Press any key to continue")
 
+
 while True:
     display_menu()
 
@@ -165,5 +165,5 @@ while True:
         break
 
 print("-------------------------------")
-print(" Thank you for using our system")
+print(" Thank you for using system")
 print("-------------------------------")
